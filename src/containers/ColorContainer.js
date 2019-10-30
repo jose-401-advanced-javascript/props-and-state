@@ -3,13 +3,9 @@ import ColorDisplay from '../components/colors/ColorDisplay';
 import ColorPicker from '../components/colors/ColorPicker';
 
 export default class ColorContainer extends Component {
-  static propTypes = {
-
-  };
-
-  state = {
-    backgroundColor: 'black'
-  };
+    state = {
+      backgroundColor: 'black'
+    };
 
   selectColor = backgroundColor => {
     this.setState({ backgroundColor });
