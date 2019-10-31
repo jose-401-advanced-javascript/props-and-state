@@ -8,11 +8,5 @@ exports[`ColorPicker component renders ColorPicker 1`] = `
   >
     red
   </button>
-  <button
-    key="green"
-    onClick={[Function]}
-  >
-    green
-  </button>
 </Fragment>
 `;
